@@ -1,11 +1,20 @@
+import Ropa from '../assets/imagenes/Ropa.jpg';
+import Tops from '../assets/imagenes/Tops.jpg';
+import Faldas from '../assets/imagenes/Faldas.jpg';
+import Vestidos from '../assets/imagenes/Vestidos.jpg';
+import Pantalones from '../assets/imagenes/Pantalones.jpg';
+import Conjuntos from '../assets/imagenes/Conjuntos.jpg';
+import Chaquetas from '../assets/imagenes/Chaquetas.jpg';
+import Bolsos from '../assets/imagenes/Bolsos.jpg';
+
 const categorias = [
- { id:1, name: 'Todo', img: 'https://i.ibb.co/4pDNDk1/all.png' },
- { id:2, name: 'Tops', img: 'https://i.ibb.co/0M7gJmT/top.png' },
- { id:3, name: 'Faldas', img: 'https://i.ibb.co/wyPq9fr/falda.png' },
- { id:4, name: 'Vestidos', img: 'https://i.ibb.co/R9j4VXp/vestido.png' },
- { id:5, name: 'Pantalones', img: 'https://i.ibb.co/Wg4mLHQ/pantalon.png' },
- { id:6, name: 'Conjuntos', img: 'https://i.ibb.co/8xM9fQK/conjunto.png' },
- { id:7, name: 'Chaquetas', img: 'https://i.ibb.co/6R5Qy6V/chaqueta.png' },
- { id:8, name: 'Bolsos', img: 'https://i.ibb.co/3Cq9V0x/bolso.png' }
+ { id:1, name: 'Todo', img: Ropa },
+ { id:2, name: 'Tops', img: Tops},
+ { id:3, name: 'Faldas', img: Faldas },
+ { id:4, name: 'Vestidos', img: Vestidos },
+ { id:5, name: 'Pantalones', img: Pantalones },
+ { id:6, name: 'Conjuntos', img: Conjuntos },
+ { id:7, name: 'Chaquetas', img: Chaquetas },
+ { id:8, name: 'Bolsos', img: Bolsos }
 ]
 export default categorias
